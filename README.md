@@ -1,4 +1,4 @@
-Monitor Plug
+**Monitor Plug**
 
 This is Linux only (not portable) udev(7) triggered script for configuring
 multiple or single monitor setup for X11 based on recognized monitor
