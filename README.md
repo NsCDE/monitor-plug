@@ -153,16 +153,22 @@ Misc facts
 
 - Log example while unplugging HDMI cable to the notebook:
 
-Oct 12 21:12:04 testbox11 monitor-plug.sh[318407]: DISPLAY set to :0, XAUTHORITY set to /home/h3d/.Xauthority
-Oct 12 21:12:04 testbox11 monitor-plug.sh[318408]: Collecting runtime information ...
-Oct 12 21:12:06 testbox11 monitor-plug.sh[318412]: Monitor /sys/class/drm/card0/card0-eDP-1 is connected, taking it into calculation.
-Oct 12 21:12:06 testbox11 monitor-plug.sh[318421]: Executing Default.sh (Configuration: Builtin).
-
+`Oct 12 21:12:04 testbox11 monitor-plug.sh[318407]: DISPLAY set to :0, XAUTHORITY set to /home/h3d/.Xauthority`
+\
+`Oct 12 21:12:04 testbox11 monitor-plug.sh[318408]: Collecting runtime information ...`
+\
+`Oct 12 21:12:06 testbox11 monitor-plug.sh[318412]: Monitor /sys/class/drm/card0/card0-eDP-1 is connected, taking it into calculation.`
+\
+`Oct 12 21:12:06 testbox11 monitor-plug.sh[318421]: Executing Default.sh (Configuration: Builtin).`
+\
 - Log example while plugging HDMI cable to the notebook:
 
-Oct 12 21:12:16 testbox11 monitor-plug.sh[318440]: DISPLAY set to :0, XAUTHORITY set to /home/h3d/.Xauthority
-Oct 12 21:12:17 testbox11 monitor-plug.sh[318441]: Collecting runtime information ...
-Oct 12 21:12:19 testbox11 monitor-plug.sh[318448]: Monitor /sys/class/drm/card0/card0-HDMI-A-1 is connected, taking it into calculation.
-Oct 12 21:12:19 testbox11 monitor-plug.sh[318452]: Monitor /sys/class/drm/card0/card0-eDP-1 is connected, taking it into calculation.
-Oct 12 21:12:19 testbox11 monitor-plug.sh[318461]: Executing HomeOffice.sh (Configuration: External).
-
+`Oct 12 21:12:16 testbox11 monitor-plug.sh[318440]: DISPLAY set to :0, XAUTHORITY set to /home/h3d/.Xauthority`
+\
+`Oct 12 21:12:17 testbox11 monitor-plug.sh[318441]: Collecting runtime information ...`
+\
+`Oct 12 21:12:19 testbox11 monitor-plug.sh[318448]: Monitor /sys/class/drm/card0/card0-HDMI-A-1 is connected, taking it into calculation.`
+\
+`Oct 12 21:12:19 testbox11 monitor-plug.sh[318452]: Monitor /sys/class/drm/card0/card0-eDP-1 is connected, taking it into calculation.`
+\
+`Oct 12 21:12:19 testbox11 monitor-plug.sh[318461]: Executing HomeOffice.sh (Configuration: External).`
