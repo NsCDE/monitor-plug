@@ -1,0 +1,4 @@
+# Conf Name, SysfsRandRNames, EDID/Modes Hash, Flags
+Default eDP-1 f2a4fcad2a65b247e49cfdabd86e592a51a16178ebc597dadfb3dcf76b60847e Builtin
+Office HDMI-A-1,eDP-1 88bfce976725d8f22d60a460091ef1c022f592cfddcdde5b39fef560df179c3a External
+Home DP-A-1,eDP-1 3379401cf9bc45de86d69ede5bc055961f28ffe68e5b14145f646b9d51256bd0 External

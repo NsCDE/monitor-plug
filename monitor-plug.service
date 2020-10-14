@@ -1,0 +1,10 @@
+[Unit]
+Description=Monitor Plug systemd service to avoid kill by udev
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=/opt/local/bin/monitor-plug.sh -c card0
+
+[Install]
+WantedBy=graphical.target

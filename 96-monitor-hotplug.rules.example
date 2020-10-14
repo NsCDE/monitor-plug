@@ -1,0 +1,2 @@
+# KERNEL=="card0", SUBSYSTEM=="drm", ACTION=="change", RUN+="/bin/ksh -c 'echo /opt/local/bin/monitor-plug.sh -c card0 | /usr/bin/at now; exit 0'"
+KERNEL=="card0", SUBSYSTEM=="drm", ACTION=="change", RUN+="/usr/bin/systemctl start --no-block monitor-plug.service"
