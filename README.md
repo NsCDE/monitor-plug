@@ -70,7 +70,7 @@ EDID or modes hashed data. Put this line into monitordb.txt.
 
 Example:
 
-# monitor-plug.sh -s HomeOffice
+\# monitor-plug.sh -s HomeOffice\
 LOG: local0.info monitor-plug.sh: Monitor /sys/class/drm/card0/card0-HDMI-A-1 is connected, taking it into calculation.
 LOG: local0.info monitor-plug.sh: Monitor /sys/class/drm/card0/card0-eDP-1 is connected, taking it into calculation.
 
